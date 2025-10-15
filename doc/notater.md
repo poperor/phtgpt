@@ -27,3 +27,12 @@ Trenger litt kunnskap om python, differensialregning og integralregning og stati
 Kan være lurt å gå tilbake til Andrejs “Make more series”
 
 I eksempelet er enkeltkarakterer våre token, men openAI og Google f.eks. Bruker “delord” som tokens. Så vi får liten “codebook” og veldig enkel encoding og decoding, men vi får lange tekstsekvenser.
+
+Trener ikke modellen på hele trenings-settet, ville ikke gå rundt ytelesesmessig, men biter av det (block, blocksize)
+
+Sender det inn i batcher for å utnytte GPU-ens parallelitet, men ver del behandles uavhengig av hverandre
+
+Bruker python BigramLanguageModel som nevralt nettverk, den enkleste han vet. Har gått gjennom den detaljert
+tidligere i “Make more series”. Sender inn torch tensor til bigram. B, T, C
+
+Kommet til 34:55 i video
