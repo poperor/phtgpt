@@ -6,7 +6,7 @@
 
 [YouTube video](https://www.youtube.com/watch?v=kCc8FmEb1nY)
 
-[Notebook for videoen](https://colab.research.google.com/drive/1JMLa53HDuA-i7ZBmqV7ZnA3c_fvtXnx-?usp=sharing)
+[Notebook for videoen](https://eacolab.resrch.google.com/drive/1JMLa53HDuA-i7ZBmqV7ZnA3c_fvtXnx-?usp=sharing)
 
 [nanoGPT-repo](https://github.com/karpathy/nanoGPT)
 
@@ -35,4 +35,10 @@ Sender det inn i batcher for å utnytte GPU-ens parallelitet, men ver del behand
 Bruker python BigramLanguageModel som nevralt nettverk, den enkleste han vet. Har gått gjennom den detaljert
 tidligere i “Make more series”. Sender inn torch tensor til bigram. B, T, C
 
-Kommet til 34:55 i video
+Status:
+
+Er 3 eksempler foran videoen i min notebook
+
+Har kommet til 52:38 i videoen
+
+Skal til å kjøre `python3 bigram.py` i ng-video-lecture
