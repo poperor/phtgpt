@@ -35,10 +35,10 @@ Sender det inn i batcher for å utnytte GPU-ens parallelitet, men ver del behand
 Bruker python BigramLanguageModel som nevralt nettverk, den enkleste han vet. Har gått gjennom den detaljert
 tidligere i “Make more series”. Sender inn torch tensor til bigram. B, T, C
 
-Status:
+Status:                     
 
 Er 3 eksempler foran videoen i min notebook
 
-Har kommet til 52:38 i videoen
+Har kommet til  1:05:36 i videoen; midt i self attention som korresponderer til nest siste entry i min notebook
 
-Skal til å kjøre `python3 bigram.py` i ng-video-lecture
+Skal til å kjøre `python3 bigram.py` i ng-video-lecture (men er feil versjon?)
