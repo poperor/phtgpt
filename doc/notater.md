@@ -35,9 +35,8 @@ Sender det inn i batcher for å utnytte GPU-ens parallelitet, men ver del behand
 Bruker python BigramLanguageModel som nevralt nettverk, den enkleste han vet. Har gått gjennom den detaljert
 tidligere i “Make more series”. Sender inn torch tensor til bigram. B, T, C
 
-Status: 
-
-Snart på nest siste entry i playbook. Før oppsummering og "fasit"
-
-Har kommet til  1:24:30 i videoen; midt i self attention som korresponderer til nest siste entry i min notebook
+ChatGPT
+- Først pretraining på store deler av Internet. Decoder only. Bir i stand til å bable ut svar på spørsmål; gjerne med nye spørsmål
+- Så finetuning del 1 for bedre "alignment". Modellen trenes på typisk spørsmål/svar-dokumenter. Ikke så store mengder, men slik at den blir i stand til å svare fornuftig på spørsmål.
+- Så flere finetuning-steg; ikke alt er åpent fra OpenAI sin side. 
 
